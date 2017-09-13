@@ -57,6 +57,8 @@
 	pinctrl-0 = <&emmc_pins>;
 	bus-width = <8>;
 	status = "okay";
+	ti,non-removable;
+	max-frequency = <20000000>;
 };
 
 &mmc3 {
